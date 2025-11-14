@@ -77,12 +77,14 @@ window-rule {
 // Bindings
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
+    Mod+Shift+W { spawn "~/Arch-Niri/scripts/resetwaybar.sh"; }
 
     // Custom apps
     Mod+E { spawn "thunar"; }
     Mod+D { spawn "wofi" "--show" "drun"; }
     Mod+Return { spawn "alacritty"; }
     Mod+Alt+L { spawn "swaylock"; }
+
 
     Mod+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }
 

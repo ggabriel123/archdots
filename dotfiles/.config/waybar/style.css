@@ -1,0 +1,44 @@
+* {
+    font-family: "Fira Code", monospace;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+#waybar {
+    background: transparent;
+}
+
+.module {
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 1px 10px;
+    border-radius: 10px;
+    background: rgba(40, 40, 40, 0.85);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.module:hover {
+    background: rgba(60, 60, 60, 0.95);
+}
+
+#clock,
+#pulseaudio,
+#cpu,
+#memory,
+#niri-workspaces {
+    padding: 1px 8px;
+    border-radius: 10px;
+    background: rgba(40, 40, 40, 0.85);
+}
+
+#niri-workspaces .active {
+    background: rgba(100, 100, 200, 0.95);
+    border-radius: 10px;
+    padding: 1px 8px;
+}
+
+#niri-workspaces .default {
+    background: rgba(70, 70, 70, 0.75);
+    border-radius: 10px;
+    padding: 1px 8px;
+}
