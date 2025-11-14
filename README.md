@@ -1,1 +1,1 @@
-# Meus arquivos de configuração
+# Minhas configurações
